@@ -17,7 +17,7 @@ def main():
     while prime_index <= 10001:
         if is_prime(i):
             if prime_index == 10001:
-                print "%s: %s is a prime number" % (str(prime_index), str(i))
+                print "%d: %d is a prime number" % (prime_index, i)
             prime_index += 1
         i += 1
 
